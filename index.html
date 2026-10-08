@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+  
+  <!-- عنوان وتحسين محركات البحث SEO لمدينة السمارة -->
+  <title>متجر تويس | أواني منزلية وفواكه جافة ومكسرات بالسمارة - الدفع عند الاستلام</title>
+  <meta name="description" content="متجر تويس للتسوق الإلكتروني بمدينة السمارة، المغرب. تشكيلة فاخرة من الأواني المنزلية ومستلزمات المطبخ، وأجود الفواكه الجافة والمكسرات الطازجة. توصيل سريع والدفع عند الاستلام." />
+  <meta name="keywords" content="متجر تويس, أواني منزلية السمارة, فواكه جافة السمارة, مكسرات السمارة, أدوات منزلية السمارة, متجر إلكتروني السمارة, الدفع عند الاستلام السمارة, قدور جرانيت السمارة, طاجين مغربي السمارة, لوز وكاجو السمارة, تمر المجهول السمارة" />
+  <meta name="author" content="متجر تويس للتسوق" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="متجر تويس | متجر الأواني المنزلية والفواكه الجافة بالسمارة" />
+  <meta property="og:description" content="كل ما تحتاجه لبيتك في مكان واحد بالسمارة. أواني فاخرة، مكسرات ممتازة، توصيل سريع والدفع عند الاستلام." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1200&q=80" />
+  <meta property="og:locale" content="ar_MA" />
+
+  <!-- Google Fonts: Tajawal & Cairo -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <!-- Schema.org Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Store",
+    "name": "متجر تويس للتسوق",
+    "description": "متجر إلكتروني مخصص لمدينة السمارة لبيع الأواني المنزلية ومستلزمات المطبخ والفواكه الجافة والمكسرات مع الدفع عند الاستلام",
+    "telephone": "+212661000000",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "شارع الحسن الثاني، قرب السوق البلدي",
+      "addressLocality": "السمارة",
+      "addressRegion": "العيون الساقية الحمراء",
+      "addressCountry": "MA"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "26.7417",
+      "longitude": "-11.6719"
+    },
+    "priceRange": "MAD",
+    "currenciesAccepted": "MAD",
+    "paymentAccepted": "Cash on Delivery"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- 1. شريط الإعلان العلوي -->
+  <div class="top-bar">
+    <div class="container" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+      <div class="top-bar-notice">
+        <i class="fas fa-truck-fast"></i>
+        <span>توصيل سريع داخل جميع أحياء السمارة | الدفع نقداً عند الاستلام (COD)</span>
+      </div>
+      <div class="top-bar-actions">
+        <a href="#track-order" style="color: #fde68a; display: flex; align-items: center; gap: 0.3rem;">
+          <i class="fas fa-box"></i> تتبع طلبيتك
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. الترويسة الرئيسية -->
+  <header class="header-main">
+    <div class="container">
+      <div class="header-content">
+        <!-- الشعار -->
+        <a href="#home" class="logo" aria-label="متجر تويس">
+          <img src="assets/images/store-logo.png" alt="متجر تويس" class="store-logo" />
+        </a>
+
+        <!-- شريط البحث (كمبيوتر) -->
+        <div class="header-search">
+          <div class="search-input-wrapper">
+            <input type="text" class="search-input" placeholder="ابحث عن أواني، قدور، لوز، كاجو، تمور..." />
+            <i class="fas fa-search search-icon"></i>
+          </div>
+        </div>
+
+        <!-- أزرار الإجراءات -->
+        <div class="header-actions">
+          <a href="tel:0661000000" class="action-btn" title="اتصال هاتفي مباشر" style="display: none;">
+            <i class="fas fa-phone-alt"></i>
+            <span>0661-000000</span>
+          </a>
+
+          <button class="action-btn cart-icon-btn" onclick="StoreApp.openCartDrawer()" title="سلة المشتريات">
+            <i class="fas fa-shopping-basket" style="font-size: 1.15rem;"></i>
+            <span style="font-weight: 700;">السلة</span>
+            <span class="badge-count badge-cart-count" style="display: none;">0</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- شريط التنقل للكمبيوتر -->
+    <nav class="nav-bar">
+      <div class="container">
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link active"><i class="fas fa-home"></i> الرئيسية</a></li>
+          <li><a href="#shop" class="nav-link"><i class="fas fa-store"></i> المتجر / كل السلع</a></li>
+          <li><a href="#kitchenware" class="nav-link"><i class="fas fa-utensils"></i> الأواني المنزلية</a></li>
+          <li><a href="#nuts" class="nav-link"><i class="fas fa-seedling"></i> الفواكه الجافة والمكسرات</a></li>
+          <li><a href="#about" class="nav-link"><i class="fas fa-info-circle"></i> من نحن</a></li>
+          <li><a href="#contact" class="nav-link"><i class="fas fa-phone"></i> تواصل معنا</a></li>
+          <li><a href="#delivery-policy" class="nav-link"><i class="fas fa-shipping-fast"></i> سياسة التوصيل</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- شريط البحث للهاتف -->
+  <div class="mobile-search-bar">
+    <div class="search-input-wrapper">
+      <input type="text" class="search-input" placeholder="ابحث عن أواني، قدور، كاجو، لوز بالسمارة..." />
+      <i class="fas fa-search search-icon"></i>
+    </div>
+  </div>
+
+  <!-- حاوية الصفحات الرئيسية (Router Pages) -->
+  <main class="container" style="flex: 1;">
+    
+    <!-- ==================== الصفحة الرئيسية (Home View) ==================== -->
+    <section id="view-home" class="page-view active">
+      
+      <!-- البنر البطل (Hero Section) -->
+      <div class="hero-section">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="hero-tag">
+              <i class="fas fa-map-marker-alt"></i> متجركم الأول في مدينة السمارة
+            </div>
+            <h1 class="hero-title" id="hero-title">كل ما تحتاجه لبيتك في مكان واحد</h1>
+            <p class="hero-desc">
+              نجمع لك بين أناقة وجودة الأواني المنزلية ومستلزمات المطبخ العصرية، ولذة الفواكه الجافة والمكسرات الطازجة المحمصة يومياً، بأفضل الأسعار ومع خدمة التوصيل السريع إلى باب منزلك في السمارة.
+            </p>
+            <div class="hero-actions">
+              <button onclick="StoreApp.navigateTo('shop')" class="btn btn-primary btn-lg">
+                <i class="fas fa-shopping-bag"></i> تسوق الآن
+              </button>
+              <button onclick="StoreApp.navigateTo('nuts')" class="btn btn-secondary btn-lg" style="background: rgba(255,255,255,0.15); color: #fff; border-color: rgba(255,255,255,0.3);">
+                <i class="fas fa-seedling"></i> مكسرات وفواكه جافة
+              </button>
+            </div>
+            <div class="hero-badges-row">
+              <div class="hero-pill"><i class="fas fa-check-circle"></i> الدفع عند الاستلام</div>
+              <div class="hero-pill"><i class="fas fa-truck"></i> توصيل لجميع أحياء السمارة</div>
+              <div class="hero-pill"><i class="fas fa-award"></i> جودة مختارة بعناية</div>
+              <div class="hero-pill"><i class="fas fa-headset"></i> خدمة زبناء سريعة</div>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="hero-image-composite" id="hero-product-carousel">
+              <img class="hero-carousel-image is-active" src="assets/images/products/prod-nut-05.jpg" alt="تمر مجفف من منتجات متجر تويس" data-caption="فواكه مجففة طازجة" aria-hidden="false" />
+              <img class="hero-carousel-image" src="assets/images/products/prod-nut-03.jpg" alt="فستق ومكسرات من منتجات متجر تويس" data-caption="مكسرات مختارة بعناية" aria-hidden="true" />
+              <img class="hero-carousel-image" src="assets/images/products/prod-kw-01.jpg" alt="أواني منزلية من منتجات متجر تويس" data-caption="أواني منزلية فاخرة" aria-hidden="true" />
+              <span class="hero-carousel-caption" id="hero-carousel-caption" aria-live="polite">فواكه مجففة طازجة</span>
+              <div class="hero-floating-card">
+                <div class="icon-box"><i class="fas fa-shipping-fast"></i></div>
+                <div>
+                  <div style="font-weight: 800; font-size: 0.95rem;">توصيل فوري بالسمارة</div>
+                  <div style="font-size: 0.75rem; color: var(--text-muted);">خلال ساعات حتى باب منزلك</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- بطاقات الأقسام الكبرى (Banners) -->
+      <div class="category-banners-grid">
+        <div class="cat-banner-card" onclick="StoreApp.navigateTo('kitchenware')">
+          <img class="cat-banner-img" src="https://images.unsplash.com/photo-1583778176476-4a8b02a64c01?auto=format&fit=crop&w=800&q=80" alt="قسم الأواني المنزلية" />
+          <div class="cat-banner-overlay">
+            <span class="cat-banner-badge">أطقم وماركات راقية</span>
+            <h3 class="cat-banner-title">الأواني المنزلية ومستلزمات المطبخ</h3>
+            <p class="cat-banner-sub">أطقم قدور، مقالي جرانيت، براريد مغربية، صواني التقديم وأدوات التحضير</p>
+            <span class="btn btn-primary btn-sm" style="width: fit-content;">تصفح قسم الأواني <i class="fas fa-arrow-left"></i></span>
+          </div>
+        </div>
+
+        <div class="cat-banner-card" onclick="StoreApp.navigateTo('nuts')">
+          <img class="cat-banner-img" src="https://images.unsplash.com/photo-1599785209707-a456fc1337bb?auto=format&fit=crop&w=800&q=80" alt="قسم الفواكه الجافة والمكسرات" />
+          <div class="cat-banner-overlay">
+            <span class="cat-banner-badge" style="background-color: var(--secondary);">طازجة ومحمصة يومياً</span>
+            <h3 class="cat-banner-title">الفواكه الجافة والمكسرات الفاخرة</h3>
+            <p class="cat-banner-sub">لوز بلدي، كاجو جامبو، فستق حلبي، تمور المجهول وخلطات الضيافة الملكية</p>
+            <span class="btn btn-emerald btn-sm" style="width: fit-content;">تصفح قسم المكسرات <i class="fas fa-arrow-left"></i></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- شريط المزايا الأربع -->
+      <div class="features-strip">
+        <div class="feature-box">
+          <div class="feature-icon-wrapper"><i class="fas fa-hand-holding-usd"></i></div>
+          <div class="feature-info">
+            <h4>الدفع عند الاستلام</h4>
+            <p>عاين منتجاتك وتأكد منها قبل أن تدفع أي درهم</p>
+          </div>
+        </div>
+        <div class="feature-box">
+          <div class="feature-icon-wrapper"><i class="fas fa-truck-ramp-box"></i></div>
+          <div class="feature-info">
+            <h4>توصيل داخل السمارة</h4>
+            <p>توصيل لحي الوحدة، السلام، العودة، ولكافة الأحياء</p>
+          </div>
+        </div>
+        <div class="feature-box">
+          <div class="feature-icon-wrapper"><i class="fas fa-seedling"></i></div>
+          <div class="feature-info">
+            <h4>منتجات مختارة بعناية</h4>
+            <p>أواني ذات جودة عالية وفواكه جافة طازجة ومضمونة</p>
+          </div>
+        </div>
+        <div class="feature-box">
+          <div class="feature-icon-wrapper"><i class="fas fa-comments"></i></div>
+          <div class="feature-info">
+            <h4>خدمة زبناء سريعة</h4>
+            <p>متابعة عبر الهاتف والواتساب طيلة أيام الأسبوع</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- الأكثر طلباً ومبيعاً -->
+      <div style="margin-bottom: 3rem;">
+        <div class="section-header">
+          <div class="section-title-wrap">
+            <h2>الأكثر طلباً ومبيعاً بالسمارة</h2>
+            <p>المنتجات التي نالت إعجاب ورضا زبنائنا في مختلف أحياء المدينة</p>
+          </div>
+          <button onclick="StoreApp.navigateTo('shop')" class="btn btn-secondary btn-sm">
+            عرض الكل <i class="fas fa-arrow-left"></i>
+          </button>
+        </div>
+        <div id="home-bestsellers-grid" class="products-grid"></div>
+      </div>
+
+      <!-- تشكيلة الأواني المنزلية -->
+      <div style="margin-bottom: 3rem;">
+        <div class="section-header">
+          <div class="section-title-wrap">
+            <h2>ركن الأواني ومستلزمات المطبخ</h2>
+            <p>أطقم طهي عصرية وقدور ضغط وأدوات تقديم تزيد مطبخك جمالاً</p>
+          </div>
+          <button onclick="StoreApp.navigateTo('kitchenware')" class="btn btn-secondary btn-sm">
+            جميع الأواني <i class="fas fa-arrow-left"></i>
+          </button>
+        </div>
+        <div id="home-kitchen-grid" class="products-grid"></div>
+      </div>
+
+      <!-- تشكيلة الفواكه الجافة والمكسرات (مع ميزة اختيار الوزن) -->
+      <div style="margin-bottom: 3rem;">
+        <div class="section-header">
+          <div class="section-title-wrap">
+            <h2>ركن الفواكه الجافة والمكسرات</h2>
+            <p>اختر وزنك المفضل (250g أو 500g أو 1kg) وسيتم تحديث السعر تلقائياً</p>
+          </div>
+          <button onclick="StoreApp.navigateTo('nuts')" class="btn btn-secondary btn-sm">
+            جميع المكسرات <i class="fas fa-arrow-left"></i>
+          </button>
+        </div>
+        <div id="home-nuts-grid" class="products-grid"></div>
+      </div>
+
+      <!-- عروض وتخفيضات خاصة -->
+      <div style="margin-bottom: 3rem;">
+        <div class="section-header">
+          <div class="section-title-wrap">
+            <h2>عروض خاصة وتخفيضات</h2>
+            <p>تخفيضات حصرية لفترة محدودة على منتجات مختارة</p>
+          </div>
+          <button onclick="StoreApp.navigateTo('offers')" class="btn btn-secondary btn-sm">
+            عرض كل التخفيضات <i class="fas fa-arrow-left"></i>
+          </button>
+        </div>
+        <div id="home-offers-grid" class="products-grid"></div>
+      </div>
+
+      <!-- قسم آراء العملاء بالسمارة -->
+      <div class="testimonials-section">
+        <div class="section-header" style="justify-content: center; text-align: center;">
+          <div class="section-title-wrap">
+            <h2>آراء زبنائنا الكرام في السمارة</h2>
+            <p>تجارب حقيقية لأهل السمارة الذين تسوقوا من متجرنا</p>
+          </div>
+        </div>
+        <div id="home-testimonials-grid" class="testimonials-grid"></div>
+      </div>
+
+    </section>
+
+    <!-- ==================== صفحة المتجر الشاملة (Shop View) ==================== -->
+    <section id="view-shop" class="page-view">
+      <div style="margin: 1.5rem 0 2rem;">
+        <div class="section-header">
+          <div class="section-title-wrap">
+            <h2>المتجر / جميع المنتجات</h2>
+            <p id="shop-products-count">عرض كافة المنتجات</p>
+          </div>
+          <!-- ترتيب المنتجات -->
+          <div style="display: flex; align-items: center; gap: 0.5rem;">
+            <label style="font-size: 0.85rem; font-weight: 700; white-space: nowrap;">ترتيب حسب:</label>
+            <select class="form-select" style="width: auto; padding: 0.45rem 0.85rem; font-size: 0.85rem;" onchange="StoreApp.setShopSort(this.value)">
+              <option value="default">الترتيب الافتراضي</option>
+              <option value="bestseller">الأكثر طلباً ومبيعاً</option>
+              <option value="price-low">السعر: من الأقل للأعلى</option>
+              <option value="price-high">السعر: من الأعلى للأقل</option>
+              <option value="rating">الأعلى تقييماً</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- فلاتر الأقسام -->
+        <div id="shop-categories-tabs" class="filter-tabs"></div>
+
+        <!-- شبكة المنتجات -->
+        <div id="shop-products-grid" class="products-grid"></div>
+      </div>
+    </section>
+
+    <!-- ==================== صفحة السلة الكاملة (Cart View) ==================== -->
+    <section id="view-cart" class="page-view">
+      <div id="cart-page-content"></div>
+    </section>
+
+    <!-- ==================== صفحة إتمام الطلب (Checkout View - COD) ==================== -->
+    <section id="view-checkout" class="page-view">
+      <div id="checkout-page-content"></div>
+    </section>
+
+    <!-- ==================== صفحة تأكيد الطلب بنجاح (Order Success View) ==================== -->
+    <section id="view-order-success" class="page-view">
+      <div id="order-success-content"></div>
+    </section>
+
+    <!-- ==================== صفحة تتبع الطلب (Track Order View) ==================== -->
+    <section id="view-track-order" class="page-view">
+      <div id="track-order-content"></div>
+    </section>
+
+    <!-- ==================== صفحة من نحن (About View) ==================== -->
+    <section id="view-about" class="page-view">
+      <div id="about-page-content"></div>
+    </section>
+
+    <!-- ==================== صفحة تواصل معنا (Contact View) ==================== -->
+    <section id="view-contact" class="page-view">
+      <div id="contact-page-content"></div>
+    </section>
+
+    <!-- ==================== صفحة سياسة التوصيل (Delivery Policy View) ==================== -->
+    <section id="view-delivery-policy" class="page-view">
+      <div id="delivery-policy-content"></div>
+    </section>
+
+    <!-- ==================== صفحة سياسة الاستبدال والاسترجاع (Return Policy View) ==================== -->
+    <section id="view-return-policy" class="page-view">
+      <div id="return-policy-content"></div>
+    </section>
+
+    <!-- ==================== صفحة لوحة تحكم الإدارة (Admin View) ==================== -->
+    <section id="view-admin" class="page-view">
+      <div id="admin-container"></div>
+    </section>
+
+  </main>
+
+  <!-- نافذة المعاينة السريعة للمنتج (Quick View Modal) -->
+  <div id="quick-view-modal" class="modal-overlay"></div>
+
+  <!-- نافذة تسجيل الدخول السري للوحة التحكم (الضغط 5 مرات على الشعار) -->
+  <div id="secret-admin-modal" class="modal-overlay">
+    <div class="modal-card" style="max-width: 440px; padding: 2.2rem 1.8rem; text-align: center; border-radius: var(--radius-lg); position: relative;">
+      <button class="modal-close-btn" onclick="StoreApp.closeModal('secret-admin-modal')">&times;</button>
+      <div style="width: 65px; height: 65px; background: #fef3c7; color: #b45309; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.25rem; font-size: 1.8rem; box-shadow: 0 4px 14px rgba(180, 83, 9, 0.2);">
+        <i class="fas fa-user-shield"></i>
+      </div>
+      <h3 style="font-size: 1.4rem; font-weight: 800; color: var(--text-main); margin-bottom: 0.35rem;">لوحة التحكم - متجر تويس</h3>
+      <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 1.5rem; line-height: 1.5;">
+        تم فتح نافذة الإدارة عبر النقر 5 مرات على الشعار. يرجى إدخال كود الدخول:
+      </p>
+      <form id="secret-admin-form" onsubmit="event.preventDefault(); StoreApp.handleSecretAdminSubmit();">
+        <div class="form-group" style="text-align: right; margin-bottom: 1.25rem;">
+          <label class="form-label" style="font-weight: 700; color: var(--text-main);">كود الدخول (PIN):</label>
+          <div style="position: relative;">
+            <input type="password" id="secret-admin-pin" class="form-input" placeholder="ادخل الكود" required style="text-align: center; font-size: 1.25rem; letter-spacing: 4px; font-weight: 700;" autocomplete="current-password" />
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block" style="font-size: 1.05rem; padding: 0.85rem; font-weight: 800;">
+          <i class="fas fa-lock-open" style="margin-left: 0.5rem;"></i> تأكيد الدخول للوحة التحكم
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- سلة المشتريات الجانبية المنبثقة (Cart Drawer) -->
+  <div id="cart-drawer-overlay" class="cart-drawer-overlay" onclick="StoreApp.closeCartDrawer()"></div>
+  <aside id="cart-drawer" class="cart-drawer">
+    <div class="cart-drawer-header">
+      <h3><i class="fas fa-shopping-basket" style="color: var(--primary);"></i> سلة المشتريات</h3>
+      <button class="close-drawer-btn" onclick="StoreApp.closeCartDrawer()">&times;</button>
+    </div>
+    
+    <!-- شريط التوصيل المجاني داخل السمارة -->
+    <div id="cart-free-shipping-bar" class="free-shipping-bar"></div>
+
+    <!-- قائمة محتويات السلة -->
+    <div id="cart-items-drawer-list" class="cart-items-list"></div>
+
+    <!-- تذييل السلة وزر إتمام الطلب -->
+    <div id="cart-drawer-footer" class="cart-drawer-footer"></div>
+  </aside>
+
+  <!-- الأزرار العائمة على الموبايل والكمبيوتر -->
+  <div class="floating-actions">
+    <!-- زر واتساب العائم -->
+    <a id="floating-whatsapp-btn" href="#" target="_blank" class="floating-btn floating-whatsapp" title="تواصل معنا عبر واتساب">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <!-- زر الاتصال المباشر العائم -->
+    <a id="floating-call-btn" href="tel:0661000000" class="floating-btn floating-call" title="اتصال هاتفي مباشر">
+      <i class="fas fa-phone-alt"></i>
+    </a>
+  </div>
+
+  <!-- شريط التنقل السفلي للهاتف (Bottom Navigation Bar) -->
+  <nav class="mobile-bottom-nav">
+    <a href="#home" class="bottom-nav-item active">
+      <i class="fas fa-home"></i>
+      <span>الرئيسية</span>
+    </a>
+    <a href="#shop" class="bottom-nav-item">
+      <i class="fas fa-store"></i>
+      <span>المتجر</span>
+    </a>
+    <a href="#kitchenware" class="bottom-nav-item">
+      <i class="fas fa-utensils"></i>
+      <span>الأواني</span>
+    </a>
+    <a href="#nuts" class="bottom-nav-item">
+      <i class="fas fa-seedling"></i>
+      <span>المكسرات</span>
+    </a>
+    <a href="javascript:void(0)" onclick="StoreApp.openCartDrawer()" class="bottom-nav-item">
+      <i class="fas fa-shopping-basket"></i>
+      <span>السلة</span>
+      <span class="bottom-nav-badge badge-cart-count" style="display: none;">0</span>
+    </a>
+  </nav>
+
+  <!-- حاوية الإشعارات المنبثقة (Toasts) -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <!-- الفوتر الرئيسي للموقع (Footer) -->
+  <footer class="footer-main">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.75rem;">
+            <img src="assets/images/store-logo-light.png" alt="متجر تويس" style="width: 138px; height: auto; display: block;" />
+          </div>
+          <p style="font-size: 0.88rem; line-height: 1.6; color: #a8a29e; margin-bottom: 1rem;">
+            متجركم الإلكتروني الموثوق بمدينة السمارة في الصحراء المغربية. نوفر لكم تشكيلة متميزة من الأواني المنزلية ومستلزمات المطبخ، بالإضافة إلى الفواكه الجافة والمكسرات الطازجة مع الدفع عند الاستلام.
+          </p>
+          <div style="display: flex; gap: 0.75rem;">
+            <a href="https://wa.me/212661000000" target="_blank" style="background: #25D366; color: #fff; width: 34px; height: 34px; border-radius: 50%; display: flex; align-items: center; justify-content: center;"><i class="fab fa-whatsapp"></i></a>
+            <a href="tel:0661000000" style="background: var(--primary); color: #fff; width: 34px; height: 34px; border-radius: 50%; display: flex; align-items: center; justify-content: center;"><i class="fas fa-phone-alt"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>أقسام المتجر</h4>
+          <ul class="footer-links">
+            <li><a href="#kitchenware">الأواني ومستلزمات المطبخ</a></li>
+            <li><a href="#nuts">الفواكه الجافة والمكسرات</a></li>
+            <li><a href="#offers">العروض والتخفيضات الخاصة</a></li>
+            <li><a href="#shop">جميع المنتجات المتوفرة</a></li>
+            <li><a href="#track-order">تتبع حالة طلبيتك</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>روابط مساعدة</h4>
+          <ul class="footer-links">
+            <li><a href="#about">من نحن</a></li>
+            <li><a href="#contact">تواصل معنا</a></li>
+            <li><a href="#delivery-policy">سياسة التوصيل بالسمارة</a></li>
+            <li><a href="#return-policy">سياسة الاستبدال والاسترجاع</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>معلومات الاتصال</h4>
+          <div class="footer-contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>مدينة السمارة، شارع الحسن الثاني، قرب السوق البلدي</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fas fa-phone-alt"></i>
+            <span>الهاتف: 0661-000000</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fab fa-whatsapp"></i>
+            <span>الواتساب: +212 661-000000</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fas fa-clock"></i>
+            <span>طيلة أيام الأسبوع (09:00 - 22:30)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          جميع الحقوق محفوظة &copy; 2026 <strong>متجر تويس للتسوق</strong> - السمارة، المملكة المغربية.
+        </div>
+        <div style="display: flex; align-items: center; gap: 0.5rem; font-size: 0.8rem;">
+          <i class="fas fa-shield-alt" style="color: #22c55e;"></i> تسوق آمن 100% | الدفع نقداً عند الاستلام (COD)
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ملفات الجافاسكريبت بالترتيب -->
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/admin.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

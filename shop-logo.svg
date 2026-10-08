@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" role="img" aria-label="Logo for the store Tuwes">
+  <rect width="1200" height="1200" fill="#f2f2f2"/>
+
+  <!-- Bag icon -->
+  <g transform="translate(0,10)">
+    <path d="M250 420 L950 420 L910 980 Q900 1018 860 1018 L340 1018 Q300 1018 290 980 Z"
+          fill="#1d1e22"/>
+
+    <path d="M240 450 C240 250, 355 160, 600 160 C845 160, 960 250, 960 450"
+          fill="none" stroke="#1d1e22" stroke-width="36" stroke-linecap="round"/>
+
+    <path d="M370 440 C370 330, 460 245, 600 245 C740 245, 830 330, 830 440"
+          fill="none" stroke="#f4b300" stroke-width="26" stroke-linecap="round"/>
+
+    <!-- Handles -->
+    <g fill="none" stroke="#f4b300" stroke-width="26" stroke-linecap="round">
+      <path d="M360 448 C360 300, 430 190, 600 190 C770 190, 840 300, 840 448"/>
+      <path d="M500 170 C500 110, 545 80, 600 80 C655 80, 700 110, 700 170"/>
+    </g>
+
+    <g fill="#f4b300">
+      <circle cx="350" cy="440" r="24"/>
+      <circle cx="850" cy="440" r="24"/>
+    </g>
+
+    <!-- Decorative swoosh -->
+    <path d="M300 690 C410 620, 510 610, 600 680 C690 750, 790 760, 900 690"
+          fill="none" stroke="#f4b300" stroke-width="26" stroke-linecap="round"/>
+  </g>
+
+  <!-- Arabic text -->
+  <g transform="translate(120,900)">
+    <text x="0" y="0" direction="rtl" unicode-bidi="plaintext"
+          font-size="330" font-weight="900" fill="#1d1e22"
+          font-family="Arial, Tahoma, 'Noto Naskh Arabic', serif">تويـس</text>
+  </g>
+</svg>
